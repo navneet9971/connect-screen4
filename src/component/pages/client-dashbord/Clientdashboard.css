@@ -1,0 +1,98 @@
+/* default styles */
+
+h11{
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.dashboard-client {
+    margin: 20px;
+  }
+  
+  .dashboard-clientbox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 170px 20px 240px;
+    padding: 300px 10px 200px 90px;
+    background-color: #cccccc;
+  }
+  
+  a.active,
+  a {
+    color: rgb(63, 62, 62);
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  a.active {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    font-size: 18px;
+  }
+  
+  re {
+    position: absolute;
+    top: 29%;
+    left: 46%;
+  }
+  
+  my {
+    position: absolute;
+    top: 29%;
+    left: 74%;
+  }
+  
+  chec {
+    position: absolute;
+    top: 55%;
+    left: 21%;
+  }
+  
+  addus {
+    position: absolute;
+    top: 55%;
+    left: 49%;
+  }
+  
+  do {
+    position: absolute;
+    top: 55%;
+    left: 72%;
+  }
+  
+  vi {
+    position: absolute;
+    top: 80%;
+    left: 23%;
+  }
+  
+  /* media queries */
+  @media screen and (max-width: 768px) {
+    /* adjust styles for smaller screens */
+    .dashboard-clientbox {
+      margin: 10px;
+      padding: 100px 10px 100px 10px;
+    }
+  
+    a.active {
+      position: static;
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    re,
+    my,
+    chec,
+    addus,
+    do,
+    vi {
+      position: static;
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
